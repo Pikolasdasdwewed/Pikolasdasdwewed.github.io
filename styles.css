@@ -23,6 +23,16 @@ header{
 
 }
 
+.container img {
+	margin-top: 100px;
+	width: 400px;
+	border: 20px solid black;
+	border-radius: 10px;
+}
+.container img:hover{
+	transform: scale(1.05x);
+}
+
 .my_projects {
 	display: block;
 	left: 10px;
