@@ -4,40 +4,59 @@
 	padding: 0;
 
 }
-
 html{
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	text-align: center;
 	color: #ffff;
-	background: #27353f;
+	background: #0a1332;
 }
-
-header{
-	height: 100px;
+.first_fone {
+	height: 100vh;
+	background: url('img/background.jpg');
+	background-size: 100%;
 }
-
+header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
 .container{
-	min-height: 800px;
-	background: url('img/me.jpg') center/cover no-repeat;
-
+	height: 80vh;
 }
 
-.container img {
-	margin-top: 100px;
-	width: 400px;
-	border: 20px solid black;
-	border-radius: 10px;
+#button_down {
+	color: white;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 12px;
+	font-size: 30px;
 }
 
 .my_projects {
-	display: block;
-	left: 10px;
+	height: 80vh;
+	background-color: aqua;
+}
+
+.my_projects li {
+	padding: 40px;
+	height: 100px;
+	background-color: #000000;
 }
 
 .my_projects a{
 	color: #39bedc;
 }
 
+footer h2 {
+	height: 20vh;
+	padding: 25px;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px black;
+}
 
 
